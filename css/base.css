@@ -38,3 +38,9 @@ body {
   border: 1px solid var(--branco);
   border-radius: 5px;
 }
+
+.botao:hover {
+  background-color: var(--azul-claro);
+  color: var(--borda-cabecalho-mobile);
+  transition: .2s;
+} 
