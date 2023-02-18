@@ -26,9 +26,22 @@
 
 .rodape__link {
   display: inline-block;
-  margin: 0 .5rem .7rem;
+  margin: 0 0.5rem 0.7rem;
 }
 
 .rodape__link:hover {
   color: rgb(244, 244, 160);
+}
+
+@media screen and (min-width: 1024px) {
+  .rodape {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .rodape__navegacao {
+    text-align: left;
+    min-width: 600px;
+  }
 }

@@ -16,7 +16,7 @@
   --planos-cartao-ultra: #b04cd9;
   --planos-cartao-mega: #e33b3b;
 
-  --montsserrat: 'Montserrat', sans-serif
+  --montsserrat: "Montserrat", sans-serif;
 }
 
 body {
@@ -42,5 +42,12 @@ body {
 .botao:hover {
   background-color: var(--azul-claro);
   color: var(--borda-cabecalho-mobile);
-  transition: .2s;
-} 
+  transition: 0.2s;
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    padding-left: calc((100% - 940px) / 2);
+    padding-right: calc((100% - 940px) / 2);
+  }
+}
